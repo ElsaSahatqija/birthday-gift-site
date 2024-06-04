@@ -1,0 +1,74 @@
+body {
+  background-color: rgb(239, 74, 250);
+  color: rgb(236, 53, 249);
+  text-shadow: 0px 0px 4px black;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.sillycat {
+  width: 200px;
+  border-radius: 50%;
+  border: 3px solid rgb(236, 53, 249);
+}
+
+
+.gift-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.text-age, .text-bday {
+  background-color: rgb(236, 53, 249);
+}
+.text-age {
+  margin: 0;
+  margin-top: 15px;
+}
+
+.text-bday {
+  margin-top: 10px;
+}
+
+.text-happy {
+  margin-bottom: 10px;
+}
+
+.text-hover {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+
+.wrapper-image {
+  background-image: url(images/gift.jpg);
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  margin-bottom: 40px;
+}
+
+.wrapper-image:active {
+  cursor: grab;
+}
+
+#wrapper-image1:hover {
+  background-image: url(images/sillycat1.jpg);
+}
+
+#wrapper-image2:hover {
+  background-image: url(images/sillycat2.jpg);
+}
+
+#wrapper-image3:hover {
+  background-image: url(images/sillycat3.jpg);
+}
